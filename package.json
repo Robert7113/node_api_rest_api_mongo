@@ -1,0 +1,19 @@
+{
+  "name": "proyecto_node_crud",
+  "version": "0.0.1",
+  "description": "Creare un CRUD con nodeJS y mongoDB",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": " nodemon src/app.js",
+    "star": "node src/app.js"
+  },
+  "author": "Roberto Carlos Barragan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
